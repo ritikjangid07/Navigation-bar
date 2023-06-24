@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Navigation Menu Example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="navMenu">
+    <ul>
+      <li><a href="#" onclick="showContent('home')">Home</a></li>
+      <li><a href="#" onclick="showContent('contact')">Contact</a></li>
+      <li><a href="#" onclick="showContent('information')">Information</a></li>
+      <li><a href="#" onclick="showContent('guide')">Guide</a></li>
+    </ul>
+  </div>
+
+  <div id="content">
+    <div id="home" class="hidden">
+      <h1>Welcome to the Home Page</h1>
+      <p>This is the content of the home page.</p>
+    </div>
+
+    <div id="contact" class="hidden">
+      <h1>Contact Information</h1>
+      <p>Here is the contact information.</p>
+    </div>
+
+    <div id="information" class="hidden">
+      <h1>Information Page</h1>
+      <p>This is the information page content.</p>
+    </div>
+
+    <div id="guide" class="hidden">
+      <h1>Guide</h1>
+      <p>This is the guide page content.</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
